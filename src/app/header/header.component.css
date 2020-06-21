@@ -1,0 +1,40 @@
+ /*
+   * Header section
+   */
+   .page-header {
+    padding: 0.4em 1em; 
+    background-color: #8bc8e0;
+  }
+
+  @media (min-width: 35em) {
+    .page-header {
+      padding: 1em;
+    }
+  }
+
+  @media (min-width: 50em) {
+    .page-header {
+      padding: 1em 4em;
+    }
+  }
+
+  .title > h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: .2em 0;
+    font-family: montserrat-bold;
+  }
+
+  @media (min-width: 35em) {
+    .title > h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+  .slogan {
+    color: #FFFFFF;
+    font-size: 0.875em;
+    margin: 0;
+    font-family: montserrat-bold;
+  }

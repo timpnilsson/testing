@@ -1,0 +1,100 @@
+@import '../../assets/fontello/css/fontello.css';
+main {
+  padding: 1em;
+}
+
+@media (min-width: 35em) {
+  main {
+    padding: 2em 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  main {
+    padding: 2em 4em;
+  }
+}
+
+.subtitle {
+  margin-top: 1.5em;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: montserrat-bold;
+
+}
+   @media (min-width: 35em) {
+    .row {
+      display: flex;
+      margin-left: -.75em;
+      margin-right: -.75em;
+     }
+ 
+     .column {
+       flex: 1;
+       margin-right: 0.75em;
+       margin-left: 0.75em;
+     }
+   }
+   .container {
+     display: block;
+     height: 500px;
+     width: 500px;
+     padding: 2em;
+   }
+   i+h2 {
+     display: inline-block;
+   }
+   
+   .icon {
+     text-decoration: none;
+     font-size: 1em;
+     /* edit this to change the size of the icon */
+     display: inline-block;
+     width: 3em;
+     position: relative;
+   }
+   i{
+     font-size:1.2rem;
+     margin-right: 1rem;
+   }
+   
+   .icon:before {
+     -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+     font-family: FontAwesome;
+     font-style: normal;
+     font-weight: normal;
+     text-transform: none !important;
+     background: #4acaa8;
+     border-radius: 100%;
+     color: #ffffff;
+     display: inline-block;
+     line-height: 2.5em;
+     text-align: center;
+     width: 2.5em;
+   }
+   ul {
+    list-style-type: none;
+   }
+  .details-item{
+    font-family: montserrat-medium;
+  }
+  .list-item{
+    margin-bottom: 0.4rem;
+  }
+  .last-item{
+    padding-bottom: 1.0rem;
+  }
+  section {
+    background:#FFFFFF;
+    color: #16add9;
+  }
+  .column{
+    margin: 1rem;
+  }
+  h2{
+    margin-bottom: 0; 
+  }
+
+ 
+ 

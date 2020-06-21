@@ -1,0 +1,12 @@
+<nav class="menu" id="main-menu">
+        <button class="menu-toggle" id="toggle-menu" (click)=changeIsOpen()> 
+          toggle menu
+        </button>
+        <div class="menu-dropdown">
+          <ul *ngIf="isOpen" class="nav-menu">
+            <li><a href="/about.html" translate>navbar.about</a></li>
+            <li><a href="/shop.html" translate>navbar.images</a></li>
+            <li><a href="/menu.html"translate>navbar.contact-us</a></li>
+          </ul>
+        </div>
+      </nav>

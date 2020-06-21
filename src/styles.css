@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin:0px;
+    background:#8bc8e0;
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url('assets/fonts/montserrat/Montserrat-Regular.ttf') format("opentype");
+  }
+@font-face {
+    font-family: montserrat-bold;
+    src: url('assets/fonts/montserrat/Montserrat-Bold.ttf') format("opentype");
+  }
+  @font-face {
+    font-family: montserrat-medium;
+    src: url('assets/fonts/montserrat/Montserrat-Medium.ttf') format("opentype");
+  }

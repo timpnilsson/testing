@@ -1,0 +1,230 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(1vw + 0.6em);
+  }
+
+
+  @media (min-width: 50em) {
+    :root {
+      font-size: 1.125em;
+    }
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /*
+   * Links
+   */
+  a:link {
+    color: #1476b8;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #1430b8;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    color: #b81414;
+  }
+
+  /*
+   * Hero image
+   */
+  .hero {
+    padding: 2em 1em;
+    text-align: center;
+    background-size: 100%;
+    background-image: url(../assets/images/carousel/carousel-spring.jpeg);
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.3em #000;
+  }
+
+  @media (min-width: 35em) {
+    .hero {
+      padding: 5em 3em;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 50em) {
+    .hero {
+      padding: 7em 6em;
+    }
+  }
+
+
+  /*
+   * Menu
+   */
+  .menu {
+    position: relative;
+  }
+
+  .menu-toggle {
+    color:#FFFFFF;
+    position: absolute;
+    top: -1.2em;
+    right: 0.1em;
+    border: 0;
+    background-color: transparent;
+    font-size: 3em;
+    width: 1em;
+    height: 1em;
+    line-height: 0.4;
+    text-indent: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .menu-toggle::after {
+    position: absolute;
+    top: 0.2em;
+    left: 0.2em;
+    display: block;
+    content: "\2261";
+    text-indent: 0;
+  }
+
+  .menu-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .menu.is-open .menu-dropdown {
+    display: block;
+  }
+
+  @media (min-width: 35em) {
+    .menu-toggle {
+      display: none;
+    }
+
+    .menu-dropdown {
+      display: block;
+    }
+  }
+
+  .menu.is-open .menu-dropdown {
+    display: block;
+  }
+
+  /**
+   * Nav menu
+   */
+  .nav-menu {
+    margin: 0;
+    padding-left: 0;
+    border: 1px solid #ccc;
+    list-style: none;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .nav-menu > li + li {
+    border-top: 1px solid #ccc;
+  }
+
+  .nav-menu > li > a {
+    display: block;
+    padding: 0.8em 1em;
+    color: #fff;
+    font-weight: normal;
+    font-family: montserrat-regular;
+  }
+
+  @media (min-width: 35em) {
+    .nav-menu {
+      display: flex;
+      position: static;
+      border: 0;
+      padding: 0 1em;
+    }
+
+    .nav-menu > li {
+      flex: 1;
+    }
+    .nav-menu > li + li {
+      border: 0;
+    }
+
+    .nav-menu > li > a {
+      padding: 0.3em;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 50em) {
+    .nav-menu {
+      padding: 0 4em;
+    }
+  }
+
+  /**
+   * Main columns
+   */
+  @media (min-width: 35em) {
+   .row {
+     display: flex;
+     margin-left: -.75em;
+     margin-right: -.75em;
+    }
+
+    .column {
+      flex: 1;
+      margin-right: 0.75em;
+      margin-left: 0.75em;
+    }
+  }
+  .container {
+    display: block;
+    height: 500px;
+    width: 500px;
+    padding: 2em;
+  }
+  i+h2 {
+    display: inline-block;
+  }
+  
+  .icon {
+    text-decoration: none;
+    font-size: 1em;
+    /* edit this to change the size of the icon */
+    display: inline-block;
+    width: 3em;
+    position: relative;
+  }
+  i{
+    font-size:1.2rem;
+    color: #FFFFFF;
+  }
+  
+  .icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+    background: #4acaa8;
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 2.5em;
+    text-align: center;
+    width: 2.5em;
+  }
+

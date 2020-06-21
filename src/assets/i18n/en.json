@@ -1,0 +1,39 @@
+{
+    "header": {
+        "title": "Tegefjäll",
+        "slogan":"For the adventerous individual"
+    },
+    "navbar":{
+        "about-the-area":"About the area",
+        "about-the-apartment":"The apartment",
+        "things-to-do":"Things to do",
+        "images":"Images",
+        "contact-us":"Contact"
+    },
+    "information":{
+        "winter-time": {
+            "heading":"Winter time",
+            "subheading":{
+                "downhill-skiing":"World-class downhill skiing"
+            }
+        },
+        "summer-time": {
+            "heading":"Summer time",
+            "subheading": {
+                "hiking":"Fantastic hiking experience",
+                "downhill-bicycle":"Downhill bycycling"
+            }
+        },
+        "transportation": {
+            "heading":"Transportation",
+            "subheading" :{
+                "train":"By train",
+                "flight":"By flight"
+            }
+        }
+
+    },
+    "contact-us":{
+        
+    }
+}

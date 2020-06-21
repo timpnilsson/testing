@@ -1,0 +1,36 @@
+{
+    "header": {
+        "title": "Tegefjäll",
+        "slogan":"För den äventyrslustna individen"
+    },
+    "navbar":{
+        "about":"Om",
+        "about-the-area":"Om området",
+        "about-the-apartment":"Lägenheten",
+        "things-to-do":"Att göra",
+        "images":"Bilder",
+        "contact-us":"Kontakta oss"
+
+    },
+    "information":{
+        "winter-time": {
+            "heading":"Vintertid",
+            "description":"Blabla"
+        },
+        "summer-time": {
+            "heading":"Sommartid",
+            "description":"Yadayada"
+        },
+        "transportation": {
+            "heading":"Transport",
+            "description":"Blahej"
+        }
+
+    },
+    "hero":{
+        "overlay-text":"Välkommen till Tegefjäll Åre, din framtida favoritdestination för skidåkning och vandring"
+    },
+    "contact-us":{
+        
+    }
+}
