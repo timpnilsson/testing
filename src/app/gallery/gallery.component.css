@@ -1,0 +1,86 @@
+@import '../../assets/fontello/css/fontello.css';
+.container {
+    margin: 0;
+    font-family: Arial;
+    border-bottom: 1px #FFFFFF;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .section{
+    background: #FFF;
+    background: #FFFFFF;
+    color: #16add9;
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(93,102,105,1);
+    -moz-box-shadow: 5px 5px 3px 0px rgba(93,102,105,1);
+    box-shadow: 5px 5px 3px 0px rgba(93,102,105,1);
+  }
+  .column {
+    -ms-flex: 33%; /* IE10 */
+    flex: 20%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @import '../../assets/fontello/css/fontello.css';
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .gallery-header{
+      font-family: montserrat-medium;
+      color: #FFFFFF;
+  }
+  .header-section{
+    display: flex;
+    justify-content: center
+  }
+  i{
+    font-size:1.2rem;
+    margin-right: 1rem;
+  }
+  button{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 0.5rem;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  button:focus {
+    outline: none;
+  }

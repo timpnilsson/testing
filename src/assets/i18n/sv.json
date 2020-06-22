@@ -15,22 +15,45 @@
     "information":{
         "winter-time": {
             "heading":"Vintertid",
-            "description":"Blabla"
+            "subheading":{
+                "downhill-skiing":"Utförsåkning i världsklass"
+            }
         },
         "summer-time": {
             "heading":"Sommartid",
-            "description":"Yadayada"
+            "subheading": {
+                "hiking":"Oändliga vandringsmöjligheter",
+                "downhill-bicycle":"Downhill cyckling"
+            }
         },
         "transportation": {
             "heading":"Transport",
-            "description":"Blahej"
+            "subheading" :{
+                "train":"Med tåg",
+                "flight":"Med flyg"
+            }
+        },
+        "apartment":{
+            "heading": "Lägenhetsinformation",
+            "subheading": {
+                "house":"Basty och fullt utrustat kök",
+                "beds": "Mest komfort 6-8 sängar, maximalt 10 sängar",
+                "car": "Tillhörande parkingsplats ingår",
+                "wifi": "Trådlöst nätverk"
+            }
         }
+    },
+    "gallery": {
+        "heading":"Bilder"
+    },
+    "contact-us": {
+        "heading":"Kontakta oss",
+        "subheading":{
+            "email":"Email"
+        }
+    },
+    "social-media-section":{
+        "heading":"Social media"
 
-    },
-    "hero":{
-        "overlay-text":"Välkommen till Tegefjäll Åre, din framtida favoritdestination för skidåkning och vandring"
-    },
-    "contact-us":{
-        
     }
 }

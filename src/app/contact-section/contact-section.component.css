@@ -1,0 +1,14 @@
+@import '../../assets/fontello/css/fontello.css';
+.header-position{
+    display: flex;
+    justify-content: center;
+    }
+    .header-styling{
+        font-family: montserrat-medium;
+        color:#FFFFFF;
+    }
+.text-input-styling{
+}
+.frame{
+    background: #FFFFFF;
+}

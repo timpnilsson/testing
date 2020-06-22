@@ -11,6 +11,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LocationDescriptionSectionComponent } from './location-description-section/location-description-section.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ApartmentDescriptionSectionComponent } from './apartment-description-section/apartment-description-section.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -27,7 +31,11 @@ export function createTranslateLoader(http: HttpClient) {
     HeaderComponent,
     NavbarComponent,
     CarouselComponent,
-    LocationDescriptionSectionComponent
+    LocationDescriptionSectionComponent,
+    GalleryComponent,
+    ApartmentDescriptionSectionComponent,
+    FooterComponent,
+    ContactSectionComponent
   ],
   imports: [
     HttpClientModule,

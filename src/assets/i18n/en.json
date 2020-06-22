@@ -1,39 +1,57 @@
 {
     "header": {
         "title": "Tegefjäll",
-        "slogan":"For the adventerous individual"
+        "slogan": "For the adventerous individual"
     },
-    "navbar":{
-        "about-the-area":"About the area",
-        "about-the-apartment":"The apartment",
-        "things-to-do":"Things to do",
-        "images":"Images",
-        "contact-us":"Contact"
+    "navbar": {
+        "about-the-area": "About the area",
+        "about-the-apartment": "The apartment",
+        "things-to-do": "Things to do",
+        "images": "Images",
+        "contact-us": "Contact"
     },
-    "information":{
+    "information": {
         "winter-time": {
-            "heading":"Winter time",
-            "subheading":{
-                "downhill-skiing":"World-class downhill skiing"
+            "heading": "Winter time",
+            "subheading": {
+                "downhill-skiing": "World-class downhill skiing"
             }
         },
         "summer-time": {
-            "heading":"Summer time",
+            "heading": "Summer time",
             "subheading": {
-                "hiking":"Fantastic hiking experience",
-                "downhill-bicycle":"Downhill bycycling"
+                "hiking": "Fantastic hiking experience",
+                "downhill-bicycle": "Downhill bycycling"
             }
         },
         "transportation": {
-            "heading":"Transportation",
-            "subheading" :{
-                "train":"By train",
-                "flight":"By flight"
+            "heading": "Transportation",
+            "subheading": {
+                "train": "By train",
+                "flight": "By flight"
+            }
+        },
+        "apartment": {
+            "heading": "Apartment information",
+            "subheading": {
+                "house":"Sauna and fully equipped kitchen",
+                "beds": "Comfortable 6-8 beds, maximum 10 beds",
+                "car": "1 parkings space included",
+                "wifi": "Wireless network"
             }
         }
-
     },
-    "contact-us":{
-        
+    "gallery": {
+        "heading":"Pictures"
+    },
+    "contact-us": {
+        "heading":"Contact us",
+        "subheading":{
+            "email":"Email"
+        }
+    },
+    "social-media-section":{
+        "heading":"Social media"
+
     }
 }
